@@ -2,7 +2,7 @@
 <!-- C:\Christophe\Repository\writing-documentation\concat-md\concat-md.ps1 -->
 <!-- So don't modify this file manually but run the tool once more instead -->
 
-<!-- Last refresh date: 2020-04-27 22:06:40 -->
+<!-- Last refresh date: 2020-04-27 22:08:26 -->
 
 <!-- below, content of ./index.md -->
 
@@ -90,6 +90,8 @@ Online Excel to markdown converter: [https://github.com/cavo789/marknotes_xls2md
 Write a bullet list in markdown and convert it into a `svg` file.
 
 At this moment, it's not possible to generate an image using a CLI tool so images should be created with a screen capture program.
+
+![Markmap](./030-tools/markmap/images/markmap.png)
 
 <!-- below, content of ./030-tools/table-generator/readme.md -->
 
