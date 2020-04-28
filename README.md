@@ -2,7 +2,7 @@
 <!-- C:\Christophe\Repository\writing-documentation\concat-md\concat-md.ps1 -->
 <!-- So don't modify this file manually but run the tool once more instead -->
 
-<!-- Last refresh date: 2020-04-28 23:02:00 -->
+<!-- Last refresh date: 2020-04-28 23:08:58 -->
 
 <!-- below, content of ./index.md -->
 
@@ -37,6 +37,8 @@
        * [Remark](#remark)
     * [Table generator](#table-generator)
     * [Limedocs Wiki converter](#limedocs-wiki-converter)
+* [Other tools, not directly markdown](#other-tools-not-directly-markdown)
+    * [Diagram tool](#diagram-tool)
 * [License](#license)
 <!-- table-of-contents - end -->
 
@@ -143,6 +145,7 @@ Bookmarklet that will allow to convert a web page to a markdown document.
 ### Markdown-css
 
 > [https://github.com/sindresorhus/github-markdown-css](https://github.com/sindresorhus/github-markdown-css)
+>
 > [https://github.com/otsaloma/markdown-css](https://github.com/otsaloma/markdown-css)
 
 Stylesheets for Markdown to HTML conversion.
@@ -158,6 +161,8 @@ Generation of diagram and flowchart from text in a similar manner as markdown [h
 There is an online editor: [https://mermaid-js.github.io/mermaid-live-editor/](https://mermaid-js.github.io/mermaid-live-editor/).
 
 Using the [mermaid-cli](https://github.com/mermaidjs/mermaid.cli) tool it's possible to convert a markdown file into an image so, using mermaid-cli, it's possible to write a batch script and convert flows into images at once.
+
+![Flow](./030-tools/diagrams_flow/images/flow.png)
 
 Note: if you're using pandoc, there are filters: [https://github.com/raghur/mermaid-filter](https://github.com/raghur/mermaid-filter).
 
@@ -181,7 +186,7 @@ Lorem Markdownum is a lorem ipsum generator for markdown.
 
 * [Online tool](https://jaspervdj.be/lorem-markdownum/)
 
-<!-- below, content of ./030-tools/lint/readme.md -->
+<!-- below, content of ./030-tools/linter/readme.md -->
 
 ### markdown-lint
 
@@ -251,6 +256,18 @@ Highlight: you can copy/paste data from Excel and this site generates the markdo
 > [https://github.com/limedocs/limedocs-wiki-converter](https://github.com/limedocs/limedocs-wiki-converter)
 
 Generate HTML & PDF documentation from you Github wiki or any other markdown-based wiki.
+
+<!-- below, content of ./080-others/readme.md -->
+
+## Other tools, not directly markdown
+
+### Diagram tool
+
+> [https://www.diagram.codes/](https://www.diagram.codes/)
+
+Diagram generation tool. The language isn't markdown but a very easy language. Images are generated on-the-fly and can be exported as a SVG file.
+
+![Diagram codes](./080-others/images/diagram_code.png)
 
 <!-- below, content of ./999-License/readme.md -->
 

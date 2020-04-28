@@ -8,6 +8,8 @@ There is an online editor: [https://mermaid-js.github.io/mermaid-live-editor/](h
 
 Using the [mermaid-cli](https://github.com/mermaidjs/mermaid.cli) tool it's possible to convert a markdown file into an image so, using mermaid-cli, it's possible to write a batch script and convert flows into images at once.
 
+![Flow](./images/flow.png)
+
 Note: if you're using pandoc, there are filters: [https://github.com/raghur/mermaid-filter](https://github.com/raghur/mermaid-filter).
 
 Demos:
