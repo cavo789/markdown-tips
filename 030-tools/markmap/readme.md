@@ -4,6 +4,6 @@
 
 Write a bullet list in markdown and convert it into a `svg` file.
 
-At this moment, it's not possible to generate an image using a CLI tool so images should be created with a screen capture program.
-
 ![Markmap](./images/markmap.png)
+
+Not yet tried: [https://www.npmjs.com/package/markmap-cli](https://www.npmjs.com/package/markmap-cli). That tools seems to convert the markdown file with markmap into a HTML page. It isn't said how the mindmap is rendered (svg, png, ...)?
